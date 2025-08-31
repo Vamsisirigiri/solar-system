@@ -17,7 +17,7 @@ jobs:
         name: Unit Testing
         strategy: 
           matrix:
-            nodejs_verison: [18,19,20]
+            nodejs_verison: [21,23,24]
             operating_system: [ubuntu-latest, macos-latest, windows-lates]
         runs-on: ${{matrix.operating_system}}
         steps:
